@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": [
+                "bedrock:InvokeModel",
+                "bedrock:InvokeAgent",
+                "bedrock:InvokeFlow",
+                "bedrock:InvokeInlineAgent",
+                "bedrock:InvokeModelWithResponseStream",
+                "bedrock:GetInvocationStep",
+                "bedrock:ApplyGuardrail"
+            ],
+            "Resource": [
+                "arn:aws:bedrock:*::foundation-model/us.amazon.nova-pro-v1:0",
+                "arn:aws:bedrock:*::foundation-model/amazon.nova-pro-v1:0",
+                "arn:aws:bedrock:*::foundation-model/amazon.nova-*",
+                 "arn:aws:bedrock:*:${accountid}:inference-profile/us.amazon.nova-pro-v1:0",
+                 "arn:aws:bedrock:*:${accountid}:guardrail/*"
+            ]
+        }
+    ]
+}

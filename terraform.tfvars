@@ -1,0 +1,7 @@
+pvt_subnet     = "subnet-XXXXXX"
+vpc_id         = "vpc-XXXXXX"
+route_table_id = "rtb-XXXX"
+s3_bucket      = "<s3 bucket for code sigining>"
+key            = "scp-lambda.zip"
+contexts3      = "<s3 bucket for the formation of context from SCP>"
+kms_key_arn    ="kms key arn for encryption"
