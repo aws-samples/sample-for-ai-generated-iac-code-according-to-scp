@@ -37,11 +37,11 @@ This solution introduces an intelligent Infrastructure as Code (IaC) generator p
 
 1. Clone this repository using below command 
 ```
-git clone "git@github.com:aws-samples/aws-scp-intelligent-iac-framework.git"
+git clone https://github.com/aws-samples/sample-for-ai-generated-iac-code-according-to-scp
 ```
 2. Navigate into the project base directory
 ```
-cd aws-scp-intelligent-iac-framework
+cd sample-for-ai-generated-iac-code-according-to-scp
 ```
 3. Initialize terraform 
 ```
