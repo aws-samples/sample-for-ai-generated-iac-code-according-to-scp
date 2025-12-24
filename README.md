@@ -21,7 +21,7 @@ This solution introduces an intelligent Infrastructure as Code (IaC) generator p
 6. A Amazon Bedrock Agent with security best practices
 7. The models used in this solution are Amazon Nova. Please make sure that these are enabled in the account before deploying the code.
 8. Cross check the region and the model access before deploying this.
-9. A regulated VPC as per the best practices from the AWS Well Architected Framework with private subnets.
+9. A regulated VPC as per the best practices from the AWS Well Architected Framework with private subnets and a associated route table.
 10. A KMS key with security best practices
 11. Two S3 buckets (Lambda deployment and context storage)
 
